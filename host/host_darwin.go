@@ -13,8 +13,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/shirou/gopsutil/internal/common"
-	"github.com/shirou/gopsutil/process"
+	"github.com/jekkay/gopsutil/internal/common"
+	"github.com/jekkay/gopsutil/process"
 	"golang.org/x/sys/unix"
 )
 
