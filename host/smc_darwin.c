@@ -150,7 +150,7 @@ static kern_return_t read_smc(char *key, smc_return_t *result_smc) {
     return result;
   }
 
-  memcpy(result_smc->data, output.bytes, sizeof(output.bytes));
+  memmove(result_smc->data, output.bytes, sizeof(output.bytes));
 
   return result;
 }
